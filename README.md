@@ -75,6 +75,7 @@ git push
 <br />
 
 📜 License
+<br />
 This project is licensed under the MIT License.
 
-If you want, I can make the actual README.md file for you with Markdown formatting, emojis, and proper sections so you can just drop it into your GitHub repo and it will look polished instantly.
+
