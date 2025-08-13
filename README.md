@@ -43,14 +43,16 @@ Path: Dehradun -> Rajpur -> Mussoorie
 Clone the repository
 
 <br />
-<p align="center">
-  <img src="images/screenshot1.png" alt="Travel Planner Screenshot" width="600"/>
-</p>
+git add image.png
+git commit -m "Add screenshot"
+git push
+
 
 <br />
 
-gcc travel_planner.c -o travel_planner
-Run the program
+## 📸 Screenshot
+![Travel Planner Screenshot](image.png)
+
 
 <br />
 
