@@ -87,11 +87,11 @@ int findLocationIndex(TravelPlanner* tp, const char* name) {
 }
 
 void displayLocations(TravelPlanner* tp) {
-    printf("--------------- Locations ---------------\n");
+    printf("------------ Locations ------------\n");
     for (int i = 0; i < tp->n; i++) {
         printf("%s\n", tp->locations[i]);
     }
-    printf("----------------------------------------\n");
+    printf("-----------------------------------\n");
 }
 
 void displayRoutes(TravelPlanner* tp) {
@@ -99,7 +99,7 @@ void displayRoutes(TravelPlanner* tp) {
     for (int i = 0; i < tp->edgeCount; i++) {
         printf("%s to %s takes %s kms\n", tp->routes[i][1], tp->routes[i][2], tp->routes[i][3]);
     }
-    printf("----------------------------------------\n");
+    printf("------------------------------------\n");
 }
 
 void createEdgeVector(TravelPlanner* tp) {
@@ -251,4 +251,5 @@ int main() {
 
     printf("\nThank you for using the Travel Planner!\n");
     return 0;
+
 }
