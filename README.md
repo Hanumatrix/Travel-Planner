@@ -1,4 +1,5 @@
 🗺️ Travel Planner
+<br />
 A C-based trip planning tool that calculates the shortest route, estimates total fare, and displays the travel path — all powered by Dijkstra’s shortest-path algorithm.
 
 ✨ Features
